@@ -46,7 +46,7 @@ public class HomeController {
 
     @RequestMapping(value = "sample", method = GET)
     public String sample() {
-        System.out.println("HomeController >>>>>>>>>>>>>>>> contact");
+        System.out.println("HomeController >>>>>>>>>>>>>>>> contact of Testing..");
         return "/homepage/sample";
     }
 }
